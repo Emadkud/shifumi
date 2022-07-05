@@ -50,9 +50,7 @@ for (let i = 0; i < buttons.length; i++) {
         scoreIa++;
       }
       
-    
-      
-      else{
+    else{
         resultat('le jeu est fini');
       }
     } 
