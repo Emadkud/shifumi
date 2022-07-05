@@ -45,6 +45,7 @@ img {
     display: flex;
      align-items: center;
      flex-direction: column;
+     margin-top:-40;
 }
 
 
@@ -69,4 +70,9 @@ img {
     background-color: rgb(37, 175, 218);
     font-size: 60PX;
 }
+
+
+
+
+
    
