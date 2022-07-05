@@ -1,78 +1,86 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2? famille=Oswald:wght@200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-  
-   
-    background-color: aquamarine;
- 
+
+body {
     
+    font-family: "Courgette", cursive;
+    background-color: rgb(7, 117, 168);
 }
 h1 {
-    text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 100px;
-    background-color: rgb(42, 165, 159);
-    border-radius: 30px;
-    color: aqua;
-    margin: 10px ;
-
+  text-align: center;
+  font-family: "Courgette", cursive;
+  font-size: 100px;
+  background-color: rgb(6, 160, 153);
+  border-radius: 30px;
+  color: rgb(255, 255, 255);
 }
 
-h2{
+h2 {
     
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    background-color: rgb(42, 165, 159);
-    width: 100px;
-    border-radius: 30px;
-    color: rgb(0, 0, 0);
-    font-size: 30PX;
-    text-align: center;
+  font-family: "Courgette", cursive;
+  font-size: 150px;
+  border-radius: 30px;
+  color: rgb(255, 255, 255);
+  margin: 20PX;
+ 
+  text-align: center;
 }
-
-
-
 
 img {
+    margin: 20PX;
     border-radius: 30px;
+    
+
+  
+  
+  
 }
 
-.ppc{
-    display: flex;
-     align-items: center;
-     flex-direction: column;
-     margin-top:-40;
+.ppc {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+  gap: 20px;
 }
-
 
 .resultat {
-    color: rgb(251, 251, 251);
-    background-color: cadetblue;
-    font-size: 45px;
-    text-align: center;
-    margin: 20px;
-    border-radius: 20px;
-   
+  color: rgb(255, 255, 255);
+  background-color: rgb(8, 147, 152);
+  font-size: 45px;
+  text-align: center;
+  margin: 20px;
+  border-radius: 20px;
+  
 }
 
-.btn{
-    font-size: 50px;
-    border-radius: 20px;
-    padding: 20px;
-    margin-bottom: 5px;
+.btn {
+ 
+  font-family: "Courgette", cursive;
+  font-size: 50px;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 50px;
+  color: rgb(247, 245, 245);
+  background-color: rgb(14, 144, 144);
+ 
 }
 
-.btn:hover{
-    background-color: rgb(37, 175, 218);
-    font-size: 60PX;
+.btn:hover {
+  background-color: rgb(218, 37, 76);
+  font-size: 60px;
 }
 
-
-
-
-
-   
+.SS {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ 
+}
